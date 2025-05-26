@@ -1,0 +1,370 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Halo jak", "Halo","Hey","Hola", "Hello", "hai", "hi","p","ping","woy"],
+         "responses": ["Haloo, mau nanya apaanih?",
+                       "halo Jak, ada yang bisa di bantu?"]
+        },
+        {
+        "tag": "Sapaan_Pagi",
+        "patterns": ["selamat pagi","pagi","halo pagi","hai pagi"],
+        "responses": ["Selamat pagi juga! Semoga harimu menyenangkan. Ada yang bisa saya bantu tentang Persija?"]
+        },
+        {
+        "tag": "Sapaan_Siang",
+        "patterns": ["selamat siang","siang","halo siang","hai siang"],
+        "responses": ["Selamat siang! Ada yang ingin kamu tanyakan seputar Persija?"]
+        },
+        {
+        "tag": "Sapaan_Sore",
+        "patterns": ["selamat sore","sore","halo sore","hai sore"],
+        "responses": ["Selamat sore! Saya siap bantu kamu dengan informasi seputar Persija."]
+        },
+        {
+        "tag": "Sapaan_Sore",
+        "patterns": ["selamat sore","sore","halo sore","hai sore"],
+        "responses": ["Selamat sore! Saya siap bantu kamu dengan informasi seputar Persija."]
+        },
+        {
+        "tag": "Sapaan_Malam",
+        "patterns": ["selamat malam","malam","halo malam","hai malam"],
+        "responses": ["Selamat malam! Jangan lupa istirahat juga ya. Ada yang ingin kamu tahu tentang Persija?"]
+        },
+        {
+          "tag":"JakBot",
+          "patterns":["JakBot"],
+          "responses":["Jakbot adalah aplikasi Chatbot informasi untuk membantu kamu menemukan informasi seputar klub, jadwal pertandingan, pemain, dan hal menarik lainnya seputar PERSIJA"]
+        },
+        {
+          "tag":"The Jakmania",
+          "patterns":["apa itu The Jakmania","The Jak","jakmania"],
+          "responses":["The Jakmania merupakan perkumpulan Supporter Persija Jakarta, 'Wadah' bagi supporter Persija Jakarta."]
+        },
+        {
+          "tag":"Hut_TheJakMania",
+          "patterns":["HUT The Jakmania","ulang tahun The jakmania","hut jakmania"],
+          "responses":["HUT The jakmania yang ke-28 yaitu pada hari Jum'at 19 desember 2025"]
+        },
+         {
+          "tag":"Hut_Persija",
+          "patterns":["HUT","hari ulang tahun"],
+          "responses":["HUT Persija Jakarta yang ke-97 yaitu pada Jumat 28 November 2025"]
+        },
+        {
+                "tag": "Berita_Terkini",
+                "patterns": ["Informasi", "info","information","berita terkini","5"],
+                "responses": [
+                  "halo maaf kita belum update untuk berita terini, mungkin bisa tanyakan lain seputar persija"
+                ]
+               
+              },
+              {
+                "tag": "Sejarah_Persija",
+                "patterns":["didirikan","lahir","Sejarah","diresmikan"],
+                "responses":["Persija Jakarta didirikan pada 28 November 1928 dengan nama Voetbalbond Boemipoetera. Klub ini terkenal dengan julukan Macan Kemayoran. Klub ini sekarang bermain di Liga 1 Indonesia."]
+                
+              },
+              {
+                "tag":"Pelatih",
+                "patterns":["pelatih","coach"],
+                "responses":["Pelatih Persija Jakarta saat ini adalah carlos pena"]
+              },
+              {
+                "tag": "juara",
+                "patterns":
+                ["terakhir juara?","kapan juara di liga?"],
+                "responses":
+                ["Persija terakhir juara pada tahun 2018 pada Liga 1 Indonesia"]
+                
+              },
+              {
+                "tag":"Jumlah Gelar",
+                "patterns":["jumlah gelar","juara berapa kali?"],
+                "responses":["Persija Jakarta telah meraih 11 gelar juara liga domestik, menjadikannya salah satu klub tersukses di Indonesia."]
+              },
+              {
+                "tag":"Julukan",
+                "patterns":["julukan"],
+                "responses":["Julukan persija jakarta adalah 'Macan Kemayoran'"]
+              },
+              {
+                "tag":"Rivalitas",
+                "patterns":["rival","musuh"],
+                "responses":["Rival utama Persija Jakarta antara lain Persebaya Surabaya, dan PSM Makassar."]
+              },
+              {
+                "tag":"Stadion",
+                "patterns":["kandang","stadion utama","stadion persija"],
+                "responses":["Stadion Kandang Persija Jakarta saat ini adalah Stadion Jakarta Internasional Stdium (JIS)"],
+                "context":[""]
+              },
+              {
+                "tag":"Kapten",
+                "patterns":["Kapten","capt"],
+                "responses":["Kapten Persija saat ini adalah Risky ridho"],
+                "context":[""]
+              },
+              {
+                "tag":"terimakasih",
+                "patterns":["terima kasih", "makasih","terima kasih","terimakasih","thx","thanks","oke deh"],
+                "responses":["Oke jak sama-sama, senang bisa membantu,jika ada yang mau ditanyakan seputar persija datang lagi ya.."],
+                "context":[""]
+              },
+              {
+                "tag":"unknown",
+                "patterns":[],
+                "responses":["Maaf aku tidak tau pertanyaan kamu, bisa tanyakan hal lain seputar Persija."]
+              },
+              {
+                "tag":"officials",
+                "patterns":["officials"],
+                "responses":["<b>Berikut official persija musim 2024/25</b> :\nCarlos Pena : Head Coach\nRicky Nelson : Assistant Coach\nRobert Carl Morledge : Physical Coach\nHendro Kartiko : GK Coach\nIlham Ralibi : Physical Coach\nBambang Pamungkas : Team Manager\nRegi Hariansyah : Team Secretary\nKukuh Wahyudi : Media Officer\nMuhammad Andeansyah : Team Doctor\nJeremia Halomoan : Physiotherapist\nYanizar Lubis : Physiotherapist\nAkhmad Aditya Subkhi : Masseur\nAditya Yulistyawan : Masseur\nDzikri Lazuardi Z : Analyst\nPetrick Herberth : Analyst\nCandra Darmawan : Kitman\nAries Tri Kurniawan : Kitman\nKhairul Imam : Photographer\nYudistira Achmad : Videographer"
+              ]
+              },
+              {
+                "tag":"nama_awal_persija",
+                "patterns":["nama awal"],
+                "responses":["Nama awal Persija adalah Voetbalbond Indonesia Jacatra (VIJ)."]
+              },
+              {
+                "tag":"legenda",
+                "patterns":["legenda","legend"],
+                "responses":["Beberapa legenda Persija antara lain Bambang Pamungkas, Ismed Sofyan, dan Anjas Asmara."]
+              },
+              {
+                "tag":"warna_kustum",
+                "patterns":["warna kustum persija "],
+                "responses":["Warna kostum persija berwana merah untuk laga home sedangkan berwana putih untuk laga away"]
+              },
+              {
+                "tag":"jumlah_piala_presiden",
+                "patterns":["juara Piala Presiden?"],
+                "responses":["Persija pernah menjuarai Piala Presiden pada tahun 2018."]
+              },
+              {
+                "tag":"jumlah_piala_kemenpora",
+                "patterns":["juara Piala Kemenpora"],
+                "responses":["Persija menjuarai Piala Kemenpora pada tahun 2021."]
+              },
+              {
+                "tag":"pendiri_persija",
+                "patterns":["pendiri"],
+                "responses":["Persija didirikan oleh Soeri dan Alie pada 28 November 1928."]
+              },
+              {
+                "tag":"tahun_bergabung_pssi",
+                "patterns":["bergabung dengan PSSI?"],
+                "responses":["Persija menjadi salah satu pendiri PSSI pada 19 April 1930."]
+              },
+              {
+                "tag":"jumlah_pemain_asing",
+                "patterns":["jumlah pemain asing di Persija"],
+                "responses":["Persija memiliki beberapa pemain asing, termasuk\nCarlos Eduardo\nOndrej Kudela\nPablo Andrade\nRamon Bueno\nRto Matsumura\nMaciec Gajos\nGajos\nGustavo\nMarco Simic."]
+              }
+              ,
+              {
+                "tag":"Pemain_Nasional",
+                "patterns":["nasional"],
+                "responses":["Persija Memiliki 5 Pemain Nasional :\nWitan\nRizky Ridho\nMuhammad Ferari\nDony Tri Pamungkas\nReyhan hannan"]
+              },
+              {
+                "tag":"akhir_kontrak",
+                "patterns":["akhir kontrak pada 2025","pemain habis kontrak"],
+                "responses":["Daftar beberapa pemain dengan akhir kontrak pada 30 Juni 2025:\nRio Fahmi : 30 Juni 2025\nFirza Andika : 30 Juni 2025\nHanif Sjahbandi : 30 Juni 2025\nMuhammad Ferarri : 30 Juni 2025\nOndrej Kudela : 30 Juni 2025\nMaciej Gajos : 30 Juni 2025\nSyahrian Abimanyu : 30 Juni 2025\nResky Fandi : 30 Juni 2025\nPablo Andrade : 30 Juni 2025\nHansamu Yama : 30 Juni 2025\nDony Tri Pamungkas : 30 Juni 2025\nAkbar Arjunsyah : 30 Juni 2025"]
+              },
+              {
+                "tag":"Penendang_pinalti",
+                "patterns":["penendang pinalti"],
+                "responses":["Persija Memiliki pemain penendang pinalti yaitu:\nOndrej Kudela\nGustavo\nMarco Simic"]
+              },
+              {
+                "tag":"pemain",
+                "patterns":["pemain persija  2024/25 ","squad","3"],
+                "responses":["<b>Daftar Pemain Persija Jakarta :</b>\nAndritany : No. 26 | Kiper | Rp3,48Mlyr\nCarlos Eduardo : No. 1 | Kiper | Rp1,30Mlyr\nHafizh Rizkianur : No. 22 | Kiper | -\nRizky Ridho : No. 5 | Bek-Tengah | Rp8,69Mlyr\nMuhammad Ferarri : No. 41 | Bek-Tengah | Rp3,91Mlyr\nOndrej Kudela : No. 17 | Bek-Tengah | Rp3,48Mlyr\nHansamu Yama : No. 23 | Bek-Tengah | Rp2,61Mlyr\nAkbar Arjunsyah : No. 33 | Bek-Tengah | Rp869,08Jt\nFirza Andika : No. 11 | Bek-Kiri | Rp4,35Mlyr\nPablo Andrade : No. 55 | Bek-Kiri | Rp2,61Mlyr\nRio Fahmi : No. 2 | Bek-Kanan | Rp4,78Mlyr\nRaka Cahyana : No. 15 | Bek-Kanan | Rp1,30Mlyr\nHanif Sjahbandi : No. 19 | Gel. Bertahan | Rp3,91Mlyr\nResky Fandi : No. 24 | Gel. Bertahan | Rp3,04Mlyr\nAditya Warman : No. 36 | Gel. Bertahan | -\nSyahrian Abimanyu : No. 8 | Gel. Tengah | Rp3,48Mlyr\nRamon Bueno : No. 6 | Gel. Tengah | Rp3,04Mlyr\nRefan Nadief : No. 74 | Gel. Tengah | Rp869,08Jt\nRyo Matsumura : No. 7 | Gel. Serang | Rp6,08Mlyr\nMaciej Gajos : No. 10 | Gel. Serang | Rp3,48Mlyr\nRayhan Hannan : No. 58 | Gel. Serang | Rp2,17Mlyr\nWitan : No. 78 | Sayap Kiri | Rp4,78Mlyr\nDony Tri Pamungkas : No. 77 | Sayap Kiri | Rp2,61Mlyr\nZahaby Gholy : No. 66 | Sayap Kanan | -\nAgi Firmansyah : No. 90 | Sayap Kanan | -\nGustavo : No. 70 | Depan-Tengah | Rp5,21Mlyr\nYandi Sofyan : No. 69 | Depan-Tengah | Rp1,74Mlyr\nMarko Simic : No. 9 | Depan-Tengah | Rp869,08Jt\n"]
+              },
+              {
+                "tag":"TopScore",
+                "patterns":["top skor","top score","topskor","pemain topskor pada persija"],
+                "responses":["Pemain Top Score persija musim 2024/2025 adalah Gustvo dengan Jumlah gol yaitu 16"]
+              },
+              {
+                "tag":"Tiket",
+                "patterns":["Tiketing","tiket","cara mendapatkan tiket","cara membeli ticket","info tiket","2"],
+                "responses":["Cara untuk mendapatkan Tiket Persija laga Home anda bisa menginstall Persija Access pada PlayStore atau AppStore atau anda bisa Hubungi Korwil terdekat anda.\nmau aku tunjukin Langkah-langkah beli tiket Via Persija access?"]
+              },
+              {
+                "tag":"Kartu_Tanda_Anggota",
+                "patterns":["membuat KTA","Kartu Tanda Anggota","daftar KTA","6"],
+                "responses":["berikut cara membuat kartu tanda anggota the jakmania\n<b>Langkah ke-1 :</b>\nInstall The Jakmania pada PlayStore/App Store\n<b>Langkah ke-2 :</b>\ndaftar akun bisa menggunakan akun google/apple\n<b>langkah ke-3 :</b>\njika sudah membuat akun anda bisa pilih Menu Pendaftar Anggota\n<b>langkah ke-4 :</b>\n anda bisa pilih daftar baru/perpanjang, jika sudah pada pada syarat dan ketentuan anda bisa scroll dan pilih setuju.\n<b>langkah ke-5 :</b>\n pada halaman formulir pendaftaran anda diminta untuk input Upload ktp,Nama lengkap,Tanggal lahir,NIK,Ukuran Kaos Anggota\n<b>Langkah ke-6 :</b>\nanda diminta untuk input data domisili\n<b>langkah ke-7 :</b>\nlangkah terakhir isi kontak yang bisa dihubungi sebagai informasi yaitu email dan nomor HP lalu Upload file dokumen KTP atau KK untuk verifikasi data diri,setelahnya pilih tombol simpan.\n\nUntuk malakukan cek terhadap progres pendaftaran, pendaftar bisa buka halaman <b>menu pendaftaran</b> akan ada info progress pada halaman yang menjadi 3 yaitu :\nA.Belum Daftar : belum melakukan Pendaftaran.\nB.Menunggu Korwil : belum diverifikasi Korwil.\nC.Menunggu Pusat : sudah diverifikasi korwil tetapi belum distujui PP The Jakmania.\n<b>Jika sudah di Setujui</b> PP The Jakmania maka Otomatis akan tampil <b>KTA versi Digital."]
+              },
+              {
+                "tag":"Tiket_Via_app",
+                "patterns":["mau","boleh","membeli tiket Di Persija Acccess","gas"],
+                "responses":["Berikut langkah-langkah membeli tiket Via Persija Access\nLangkah ke-1: anda dapat menginstall persija Access di Play Store atau App Store.\nLangkah ke-2 : anda bisa login terlebih dahulu bisa dengan akun google/Apple.\nLangkah ke-3 : setelah login,pada halaman Home anda bisa pilih <b>'Upcoming Matches'</b>.\nLangkah ke-4 pilih Match yang anda inginkan lalu pilih <b>'Buy Ticket'</b>.\nLangkah ke-5 : pilih Kategory dan jumlah tiket yang ingin dibeli, jika sudah pilih <b>'LANJUT'</b> dan ceklis pada syarat kententuan dan pilih<b>'SETUJU DAN LANJUT'</b>.\nLangkah ke-6 : pada data pemesanan anda dapat menginput NIK,Nama lengkap (sesuai KTP),Email, dan No Tlp, jika sudah bisa ceklis dan <b>'LANJUT'</b>\nLangkah ke-7 : Pilih Metode pembayaran menggunakan QRIS, lalu klik <b>Process</b>\nLangkah ke-8 : Cek detail pesanan lalu klik <b>Payment</b> untuk melanjutkan pembayaran\nLangkah ke-9 : Aplikasi akan generate QRIS, ikuti tata cara pembayaran yang tertera."]
+              },
+              {
+                "tag":"jumlah_korwil",
+                "patterns":["Jumlah Korwil the jakmania","jumlah korwil"],
+                "responses":["untuk saat ini korwil (Koordinator wilayah) The Jakmania mencapai kurang lebih 102 dan memiliki anggota kurang lebih mencapai 85.000"]
+              },
+              {
+                "tag":"ketua_umum_TheJakmania",
+                "patterns":["ketum the jakmnia","ketua umum the jakmania","ketum jakmania"],
+                "responses":["Ketua Umum The jakmania saat ini <b>Diky Soemarno</b>"]
+              },
+              {
+                "tag":"diky_soemarno",
+                "patterns":["diky soemarno","bung diky"],
+                "responses":["Diky Soemarno adalah ketua umum The Jakmania priode 2023-2026"]
+              },
+              {
+                "tag":"Persija",
+                "patterns":["apa itu persija","persija adalah"],
+                "responses":["Persatuan Sepak Bola Indonesia Jakarta (biasa disebut sebagai Persija Jakarta atau Persija) adalah klub sepak bola profesional Indonesia yang berbasis di Jakarta,Persija Jakarta merupakan klub dengan jumlah gelar terbanyak di Indonesia dengan total 11 gelar juara Indonesia dengan slogan yang sangat terkenalnya Persija Jakarta merupakan klub dengan jumlah gelar terbanyak di Indonesia dengan total 11 gelar juara Indonesia dengan slogan yang sangat terkenalnya '11 kali juara Indonesia tanpa diakui, Kami adalah yang terbaik di planet ini' "]
+              },
+              {
+                "tag":"Sekretariat_TheJakmania",
+                "patterns":["dimana sekretariat thejakamina","dimana sekre the jak"],
+                "responses":["Sekretariat The Jakmania, suporter Persija Jakarta, berlokasi di Jakarta lebih tepatnya GOR Soemantri Brodjonegoro, Komplek Plaza Festival, Jl. H. R. Rasuna Said No.22 Kav.C, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12940"]
+              },
+              {
+                "tag":"nama_lengkap",
+                "patterns":["apa nama lengkap persija","apa kepanjangan persija"],
+                "responses":["nama lengkap atau kepanjangan persija adalah 'Persatuan Sepak Bola Indonesia Jakarta'"]
+              },
+              {
+                "tag":"kantor_persija",
+                "patterns":["dimana kantor persija"],
+                "responses":["Kantor Persija Jakarta terletak di Jakarta. Alamat lengkapnya adalah:<br>Rasuna Office Park Lobby Area Lt Dasar Unit GF-02, Jl. Taman Rasuna Tim. No.1, RT.17/RW.1, Menteng Atas, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12960</b>"]
+              },
+              {
+                "tag":"Persija_store",
+                "patterns":["dimana persija store","dimana bisa membeli merchandise persija","persija punya store"],
+                "responses":["Persija Store terletak di beberapa lokasi di Jakarta. Salah satu lokasi utama adalah: <br>Plaza Festival, Jl. H. R. Rasuna Said UG-01, Setia Budi, Setiabudi, South Jakarta City, Jakarta 12940</br>"]
+              },
+              {
+                "tag":"Management_Persija",
+                "patterns":["Management persija","manajemen persija"],
+                "responses":["Management persija saat ini adalah bambang pamungkas (BP)"]
+              },
+              {
+                "tag":"President_klub",
+                "patterns":["presiden persija","presiden klub"],
+                "responses":["presiden klub persija saat ini adalah Mohamad Prapanca"]
+              },
+              {
+                "tag":"Trofi",
+                "patterns":["Trofi apa saja yang diraih","trofi yang dicapai","tropi"],
+                "responses":["Berikut trofi yang diraih Persija :\n<b>Era profesional</b>\n-2001 (Liga indonesia)\n-2018 (BRI Liga 1 Indonesia)\n<b>Level Internasional</b>\nJuara Piala Quoch Khan di Vietnam (1973)\nJuara Piala Sultan Brunei Darussalam (2000)\nJuara Brunei Invitation Cup (2000)\nJuara Brunei Invitation Cup (2001)\nJuara Boost SportFix Super Cup Malaysia (2018)"]
+              },
+              {
+                "tag":"Filosofi_Warna",
+                "patterns":["filosofi warna oranye","pilosipi warna oren"],
+                "responses":["Warna oranye pada Persija memiliki beberapa filosofi. Pertama, oranye mewakili semangat juang dan keberanian, seperti halnya julukan Macan Kemayoran. Kedua, oranye dianggap sebagai warna yang universal dan menyatukan warga ibukota Jakarta, khususnya melalui sepak bola."]
+              },
+              {
+                "tag":"Bambang_Pamungkas",
+                "patterns":["peran bambang pamungkas","bambang pamungkas"],
+                "responses":["Bambang Pamungkas, juga dikenal sebagai Bepe, adalah seorang mantan pemain sepak bola Indonesia yang pernah bermain di Persija Jakarta dan timnas Indonesia. sekarang Ia menjadi manajer Persija Jakarta."]
+              },
+              {
+                "tag":"Kendala_problem",
+                "patterns":["kendala yang dialami persija","problem yang pernah dialami"],
+                "responses":["Persija Jakarta pernah mengalami beberapa kendala yang mempengaruhi performa dan pencapaian tim. Salah satunya adalah masalah internal yang diduga terkait dengan tunggakan gaji pemain. Selain itu, Persija juga mengalami kesulitan menggelar laga kandang di Jakarta karena konflik jadwal dengan kegiatan non sepak bola di stadion Jakarta International Stadium (JIS) dan Stadion Utama Gelora Bung Karno. "]
+              },
+              {
+                "tag":"Slogan",
+                "patterns":["apa slogan persija","to the next level"],
+                "responses":["Slogan utama Persija Jakarta adalah <b>'To the Next Level'</b>. Slogan ini digunakan untuk menunjukkan komitmen Persija dalam terus berkembang dan meningkatkan kualitas tim. Selain itu, Persija juga memiliki julukan 'Macan Kemayoran' yang sudah melekat kuat sebagai identitas klub. "]
+              },
+              {
+                "tag":"Monas",
+                "patterns":["apa arti simbol monas","filofosi monas pada persija"],
+                "responses":["Simbol Monas (Monumen Nasional) dalam Persija Jakarta melambangkan kesetiaan dan kebanggaan terhadap kota Jakarta. Monas, sebagai ikon Jakarta, menjadi simbol identitas dan sejarah bagi tim sepak bola yang berbasis di ibu kota"]
+              },
+              {
+                "tag":"Logo",
+                "patterns":["arti logo persija","filosofi logo persija"],
+                "responses":["Selain logo DKI Jakarta, logo persija yang berbentuk lingkaran juga dilengkapi dengan tulisan nama PERSIJA serta garis merah dan putih.\nUntuk logo DKI Jakarta sendiri terdiri dari Monumen Nasional sebagai lambang kemegahan, daya juang dan cipta. Pintu Gerbang yang melambangkan kota dan kekhususan Jakarta.\nKapas dan Padi melambangkan kemakmuran, Tali Emas lambang persatuan dan kesatuan, Gelombang melukiskan lokasi Jakarta di pesisir. Perisai Segi Lima melambangkan Pancasila, dan Jaya Raya sebagai slogan perjuangan yang berarti semangat Jakarta supaya tetap berjaya dan besar.\nSedangkan nama PERSIJA sebagai nama klub, serta warna merah yang menjadi ciri khas Persija Jakarta. Serta logo bintang emas yang berarti Indonesia (sebelum Liga 1 2018).\n10 kali juara dilambangkan dengan satu bintang seperti yang dilakukan di Liga Italia. Namun jika mengikuti klub lain seperti Persipura Jayapura yang menjuarai Liga Indonesia 4 kali dan menaruh bintang 4, maka bintang Persija Jakarta akan menjadi dua.\n1 bintang untuk gelar juara Liga Indonesia 2001, dan gelar juara Liga 1 2018."]
+              },
+              {
+                "tag":"sejarah_theJakmania",
+                "patterns":["kapan the jakmania didirikan","jakmania dibuat tahun berapa","tahun berapa the jakmania dibentuk"],
+                "responses":["the jakmania atau biasa disebut jakmania didirikan pada 1997, lebih tepatnya 19 Desember 1997"]
+              },
+              {
+                "tag":"Jadwal_Persija",
+                "patterns":["Jadwal persija","selanjutnya lawan mana","match selanjutnya","1"],
+                "responses":["Halo Jak! Saat ini Liga 1 sudah resmi berakhir, jadi belum ada jadwal pertandingan terbaru untuk Persija."]
+              },
+              {
+                "tag": "Hasil_Pertandingan_Match_akhir",
+                "patterns": [
+                "Gimana hasil pertandingan terakhir?",
+                "Persija terakhir lawan?",
+                "Hasil match terakhir Persija",
+                "Pertandingan terakhir Persija gimana?",
+                "lawan Persija kemarin?","4"],
+                "responses": [
+                "Pada pertandingan terakhir, Persija Jakarta kalah 1-0 dari PSS Sleman.",
+                "Sayangnya, Persija harus mengakui keunggulan PSS Sleman dengan skor akhir 1-0.",
+                "Persija menelan kekalahan tipis 1-0 saat melawan PSS Sleman di laga terakhir.",
+                "Laga terakhir Persija berakhir dengan kekalahan 1-0 melawan PSS Sleman.",
+                "Skor akhir pertandingan terakhir: Persija Jakarta 0 - 1 PSS Sleman."]
+              },
+              {
+                "tag":"cb",
+                "patterns":["bek tengah persija", "center back persija","cb"],
+                "responses":["Bek tengah Persija musim 2024/2025:\n- Rizky Ridho\n- Muhammad Ferarri\n- Ondrej Kudela\n- Hansamu Yama\n- Akbar Arjunsyah"]
+              },
+              {
+                "tag":"kiper",
+                "patterns":["kiper persija", "penjaga gawang persija","GK"],
+                "responses":["Kiper Persija musim 2024/2025:\n- Andritany\n- Carlos Eduardo\n- Hafizh Rizkianur"]
+              },
+              {
+                "tag":"lb",
+                "patterns":["bek kiri persija","left back","lb"],
+                "responses":["Bek kiri Persija musim 2024/2025:\n- Firza Andika\n- Pablo Andrade"]
+              },
+              {
+                "tag":"rb",
+                "patterns":["bek kanan persija","right back","rb"],
+                "responses":["ek kanan Persija musim 2024/2025:\n- Rio Fahmi\n- Raka Cahyana"]
+              },
+              {
+                "tag":"cdm",
+                "patterns":["gelandang bertahan persija", "cdm persija","Central Defensive Midfielder"],
+                "responses":["Gelandang bertahan Persija musim 2024/2025:\n- Hanif Sjahbandi\n- Resky Fandi\n- Aditya Warman"]
+              },
+              {
+                "tag":"cm",
+                "patterns":["elandang tengah persija", "cm persija", "Central Midfielder"],
+                "responses":["Gelandang tengah Persija musim 2024/2025:\n- Syahrian Abimanyu\n- Ramon Bueno\n- Refan Nadief"]
+              },
+              {
+                "tag":"cam",
+                "patterns":["gelandang serang persija", "cam persija","Central Attacking Midfielder","cam"],
+                "responses":["Gelandang serang Persija musim 2024/2025:\n- Ryo Matsumura\n- Maciej Gajos\n- Rayhan Hannan"]
+              },
+              {
+                "tag":"lw",
+                "patterns":["sayap kiri persija", "left winger persija","lw"],
+                "responses":["Sayap kiri Persija musim 2024/2025:\n- Witan\n- Dony Tri Pamungkas"]
+              },
+              {
+                "tag":"rw",
+                "patterns":["sayap kanan persija", "right winger persija","rw"],
+                "responses":["Sayap kanan Persija musim 2024/2025:\n- Zahaby Gholy\n- Agi Firmansyah"]
+              },
+              {
+                "tag":"st",
+                "patterns":["penyerang persija", "striker persija","st"],
+                "responses":["Penyerang tengah Persija musim 2024/2025:\n- Gustavo\n- Yandi Sofyan\n- Marko Simic"]
+              },
+              {
+                "tag":"pencetak_gol_matchTerakhir",
+                "patterns":["pencetak gol match terakhir","pemain pencetak gol pertandingan terakhir"],
+                "responses":["pencetak gol saat match lawan pss sleman adalah Andrae Pablo"]
+              }
+   ]
+}
